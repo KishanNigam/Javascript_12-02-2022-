@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <h1 id="demo1"></h1>
+
+    <button class="btn btn-primary" type="button" onclick="demofunction()">Click me</button>
+
+    <h2 id="demo2"></h2>
+    <h2 id="demo3"></h2>
+
+   <script>
+       document.getElementById("demo1").innerHTML = "Kishan" ;
+
+        function demofunction() {
+        document.getElementById("demo1").innerHTML = "Bye bye Kishan" + "Nigam";   
+        document.getElementById("demo3").innerHTML = "hello demo 3" ;
+            console.log("working");
+        document.getElementById("demo2").innerHTML = "hello demo 2" ;
+        }
+
+
+
+   </script> 
+
+</body>
+</html>
